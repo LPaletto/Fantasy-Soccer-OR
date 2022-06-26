@@ -9,6 +9,8 @@ Data is divided in
 1. players' grades for each day
 2. players' prices 
 
+All the data is stored in excel files.
+
 All the players' grades have been taken from [Fantamagic site] (https://www.fantamagic.it/fantacalcio/voti.php) .
 Players' prices come from the fantasy soccer tournament I played last year. The auction has been made
 starting with 500 credits. 
@@ -36,15 +38,15 @@ with **pulp** library.
 
 Run 
 
-'''
+```
 python main.py --help
-'''
+```
 
 to check what parameters you can modify, then run
 
-'''
+```
 python main.py
-'''
+```
 
 plus eventual parameters to run the model. 
 
@@ -54,7 +56,7 @@ Results are saved in the results folder. They include:
 1. the best team for each round
 2. each player best line up days for both rounds
 3. the best combination of sold and bought players in the winter auction 
-4. the points and goals scored by the user each day by lining up the best team for both rounds
+4. the points and goals scored by the user each day by lining up the best team in each day for both rounds
 
 
 
