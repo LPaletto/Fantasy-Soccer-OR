@@ -6,7 +6,7 @@ teams = ['atalanta', 'bologna', 'cagliari','empoli','fiorentina','genoa','inter'
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Winning fantasy football")
-    parser.add_argument('-pt', dest="ppath", default="C://Users//loren//Desktop//voti//", type=str, 
+    parser.add_argument('-pt', dest="ppath", default= 'C://Users//paletto//Desktop//Ricerca//Fantasy_Soccer_OR//' , type=str, 
                         help='path of the folder where days and players folders are located')
     parser.add_argument('-fd', dest="first_day", default=3, type=int, 
                         help='first day of the league, greater or equal to 3, less than auct_day')
