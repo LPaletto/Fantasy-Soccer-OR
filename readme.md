@@ -11,7 +11,7 @@ Data is divided in
 
 All the data is stored in excel files.
 
-All the players' grades have been taken from [Fantamagic site] (https://www.fantamagic.it/fantacalcio/voti.php) .
+All the players' grades have been taken from [Fantamagic site](https://www.fantamagic.it/fantacalcio/voti.php) .
 Players' prices come from the fantasy soccer tournament I played last year. The auction has been made
 starting with 500 credits. 
 I'm open to hints on how to make the prices more 'statistical' and not linked to my tournament only.
