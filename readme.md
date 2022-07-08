@@ -59,7 +59,11 @@ Results are overwritten and saved in the results folder. They include:
 4. the points and goals scored by the user each day by lining up the best team in each day for both rounds
 Bt default, the results folder contains the results for the default model configuration.
 
+## Personal applications
 
+The model can be used with other prices provided by users, the important thing is that the prices file is formatted in the same way as the original and that palyers' names are not modified.
+
+The model can be used with both other prices and scores, for example to find the best team for another national league (like the Premier League). In this case both the scores and the prices files must be formatted in the same way as the original ones, and the players' names in the prices file must be the same in the scores file.
 
 
 
