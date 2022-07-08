@@ -24,10 +24,10 @@ Brief description of the game. A certain number of users forms a league. Each us
 number of coins, with whom he has to buy his team (3 keepers, 8 defenders, 8 midfielders and 6 strikers).
 Players are bought through an auction, the user who wins the auction for a player gets the player in
 his team. There is a second auction in winter where each user can sell a certain number of his players
-and buy the same number of players from the ones that are not owned by other users. Each day of the Serie A
-all the users line up a formation which they use against another random player of the league. Lined up
+and buy the same number of players from the ones that are not owned by other users. Each Serie A day
+all the users line up a formation which they use against another random user of their league. Lined up
 players' scores are summed and determine the points scored by the user. The number of goals scored by the
-user is computed from the points scored. The goals are used to dicide who wins as in a normal soccer match
+user is computed from the points scored. The goals are used to decide who wins as in a normal soccer match
 (the match can end tie) and 0,1 or 3 fantapoints are gained by the users according to the result of their
 match. At the end of the Serie A the user with the highest number of fantapoints wins the league.
 
@@ -48,16 +48,16 @@ to check what parameters you can modify, then run
 python main.py
 ```
 
-plus eventual parameters to run the model. 
+plus eventual parameters different from the default ones to run the model. 
 
 ## Accessing results
 
-Results are saved in the results folder. They include:
+Results are overwritten and saved in the results folder. They include:
 1. the best team for each round
 2. each player best line up days for both rounds
 3. the best combination of sold and bought players in the winter auction 
 4. the points and goals scored by the user each day by lining up the best team in each day for both rounds
-
+Bt default, the results folder contains the results for the default model configuration.
 
 
 
